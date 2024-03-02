@@ -12,9 +12,9 @@ from auth0.utils import VerifyToken
 # from fake_user_db import fake_users_db
 
 app = FastAPI(
-    title="FastAPI OAuth2 with Password (and hashing)",
-    description="This is a test project to test OAuth2 with password and hashing",
-    version="0.0.1"
+    title="FastAPI - OAuth2 with Resource Owner Password Credentials Flow (Password Grant)",
+    description="This is a test project to test OAuth2 with password grant flow using Auth0 as the OAuth2 provider.",
+    version="1.0.2"
 )
 
 auth0 = VerifyToken()

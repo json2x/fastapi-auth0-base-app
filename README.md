@@ -49,6 +49,20 @@ uvicorn main:app --reload
 
 The application will be available at http://localhost:8000.
 
+### Testing
+
+Create a user in Auth0
+
+![create user in Auth0](img/auth0-user.png)
+
+Use created user's credentials to authenticate and authorize use of protected endpoint
+
+![authenticate and authorize with auth0 user creds](img/auth0-Authorize.png)
+
+Test protected endpoint
+
+![test protected enpoint](img/auth0-test-protected.png)
+
 
 ### Built With
 [FastAPI](https://fastapi.tiangolo.com/) - The web framework used
