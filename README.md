@@ -25,13 +25,13 @@ You also need to have an Auth0 account. Register [here](https://auth0.com/signup
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/json2x/fastapi-auth0-base-app.git
 ```
 
 Go to your project directory
 
 ```bash
-cd your-repo-name
+cd fastapi-auth0-base-app
 ```
 
 Install the required packages:
